@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_hspoke_transaction" label="tokentransfer" max_length="40" name="x_snc_hspoke_tokentransfer" type="collection">
+        <element label="Amount" max_length="50" name="amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="From" max_length="32" name="from" reference="x_snc_hspoke_account" type="reference"/>
+        <element label="Serial" max_length="50" name="serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="To" max_length="32" name="to" reference="x_snc_hspoke_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Token" max_length="32" name="token" reference="x_snc_hspoke_token" type="reference"/>
+        <index name="index">
+            <element name="from"/>
+        </index>
+        <index name="index2">
+            <element name="to"/>
+        </index>
+        <index name="index3">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

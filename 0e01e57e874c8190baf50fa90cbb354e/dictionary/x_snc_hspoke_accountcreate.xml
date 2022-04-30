@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_hspoke_transaction" label="accountcreate" max_length="40" name="x_snc_hspoke_accountcreate" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Pinned Account" max_length="32" name="account" reference="x_snc_hspoke_account" type="reference"/>
+        <element label="Account Id" max_length="50" name="account_id" type="string"/>
+        <element label="Account Memo" max_length="255" name="account_memo" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="key" max_length="32" name="key" reference="x_snc_hspoke_key" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Receiver Signature Required" max_length="40" name="receiver_signature_required" type="boolean"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+        <index name="index2">
+            <element name="key"/>
+        </index>
+    </element>
+</database>

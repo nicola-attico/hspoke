@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc0b40db0ae5205109bf26c8a14dde62d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e01e57e874c8190baf50fa90cbb354e</scope_name>
+        <serialized_content>{"FlowDesigner:FDc0b40db0ae5205109bf26c8a14dde62d":{},"FlowDesigner:FDc0b40db0ae5205109bf26c8a14dde62d.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc0b40db0ae5205109bf26c8a14dde62d\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"key\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"bc689e06-82f8-43d0-981a-2ed1ad8f95fb\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 04:59:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84b40db087520510481887b60cbb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc0b40db0ae5205109bf26c8a14dde62d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_complex_object_84b40db087520510481887b60cbb352d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 04:59:54</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

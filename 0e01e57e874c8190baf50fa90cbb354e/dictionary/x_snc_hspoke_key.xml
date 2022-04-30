@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Key" max_length="40" name="x_snc_hspoke_key" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Has Private Key" max_length="40" name="has_private_key" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;    function expand(rec) {&#10;&#10;        var k = [];&#10;        var o = {&#10;            keys: k&#10;        };&#10;&#10;        var gr = new GlideRecord(&quot;x_snc_hspoke_m2m_keys_parent&quot;);&#10;        gr.addQuery(&quot;parent&quot;, rec.sys_id);&#10;        gr.query();&#10;        if (!rec.threshold.nil()) {&#10;            o.threshold = Number(rec.threshold);&#10;        }&#10;        while (gr.next()) {&#10;            if (gr.child.type.toString() == &quot;key&quot;) {&#10;                k.push(gr.child.public_key.toString());&#10;            }&#10;            if (gr.child.type == &quot;keylist&quot;) {&#10;                var kl = new GlideRecord(&quot;x_snc_hspoke_key&quot;);&#10;                kl.get(gr.child.sys_id);&#10;                x = expand(kl);&#10;                k.push(x);&#10;            }&#10;        }&#10;&#10;        gs.addInfoMessage(JSON.stringify(o))&#10;        return o&#10;    }&#10;&#10;    if (current.type == 'keylist') {&#10;        return JSON.stringify(expand(current))&#10;    }&#10;&#10;})(current);" label="JSON" max_length="10000" name="json" read_only="true" type="string" virtual="true"/>
+        <element label="Name" max_length="100" name="name" type="string_full_utf8"/>
+        <element label="Public Key" max_length="100" name="public_key" type="string"/>
+        <element label="Public Key Suffix" max_length="100" name="public_key_suffix" primary="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Published" max_length="40" name="published" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Threshold" max_length="40" name="threshold" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="key" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Key" value="key"/>
+                <element inactive_on_update="false" label="Keylist" value="keylist"/>
+            </choice>
+        </element>
+    </element>
+</database>

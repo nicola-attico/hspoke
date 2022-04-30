@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="request" section_id="636818b38724c150baf50fa90cbb35ae" sys_domain="global" table="x_snc_hspoke_accountcreate" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 12:01:53</sys_created_on>
+            <sys_id>47d2868487744550baf50fa90cbb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="request" display_value="request" name="x_snc_hspoke_accountcreate" sys_domain="global" view="Default view">636818b38724c150baf50fa90cbb35ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 12:01:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>key</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 12:01:53</sys_created_on>
+            <sys_id>cbd2868487744550baf50fa90cbb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="request" display_value="request" name="x_snc_hspoke_accountcreate" sys_domain="global" view="Default view">636818b38724c150baf50fa90cbb35ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 12:01:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_memo</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 12:01:53</sys_created_on>
+            <sys_id>4fd2868487744550baf50fa90cbb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="request" display_value="request" name="x_snc_hspoke_accountcreate" sys_domain="global" view="Default view">636818b38724c150baf50fa90cbb35ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 12:01:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receiver_signature_required</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 12:01:53</sys_created_on>
+            <sys_id>cfd2868487744550baf50fa90cbb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="request" display_value="request" name="x_snc_hspoke_accountcreate" sys_domain="global" view="Default view">636818b38724c150baf50fa90cbb35ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 12:01:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>request</caption>
+            <header>false</header>
+            <name>x_snc_hspoke_accountcreate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-27 09:38:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>636818b38724c150baf50fa90cbb35ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hspoke_accountcreate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_ui_section_636818b38724c150baf50fa90cbb35ae</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-27 09:38:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="read_only=true" label="NFT" max_length="40" name="x_snc_hspoke_st_nft" type="collection">
+        <element label="Account Id" max_length="20" name="account_id" type="string"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Deleted" max_length="40" name="deleted" type="boolean"/>
+        <element label="Encoded Metadata" max_length="255" name="encoded_metadata" type="string_full_utf8"/>
+        <element label="Metadata" max_length="1000" name="metadata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Pinned Account" max_length="32" name="pinned_account" reference="x_snc_hspoke_account" type="reference"/>
+        <element label="Serial Number" max_length="1000" name="serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Token" max_length="32" name="token" reference="x_snc_hspoke_st_token" type="reference"/>
+        <element label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <index name="index">
+            <element name="pinned_account"/>
+        </index>
+        <index name="index2">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

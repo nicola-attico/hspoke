@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_hspoke_transaction" label="tokencreate" max_length="40" name="x_snc_hspoke_tokencreate" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Admin Key" max_length="100" name="admin_key" reference="x_snc_hspoke_key" type="reference"/>
+        <element label="Decimals" max_length="50" name="decimals" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Freeze Key" max_length="100" name="freeze_key" reference="x_snc_hspoke_key" type="reference"/>
+        <element label="Initial Supply" max_length="30" name="initial_supply" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="KYC Key" max_length="100" name="kyc_key" reference="x_snc_hspoke_key" type="reference"/>
+        <element label="Max Supply" max_length="100" name="max_supply" type="string"/>
+        <element label="Node Id" max_length="20" name="node_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Pause Key" max_length="32" name="pause_key" reference="x_snc_hspoke_key" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supply Key" max_length="100" name="supply_key" reference="x_snc_hspoke_key" type="reference"/>
+        <element label="Symbol" max_length="255" name="symbol" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Pinned Token" max_length="32" name="token" reference="x_snc_hspoke_token" type="reference"/>
+        <element label="Token Id" max_length="20" name="token_id" read_only="true" type="string"/>
+        <element label="Token Memo" max_length="200" name="token_memo" type="string_full_utf8"/>
+        <element label="Token Name" max_length="50" name="token_name" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Treasury Account" max_length="50" name="treasury_account" reference="x_snc_hspoke_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fungible Token" value="ft"/>
+                <element inactive_on_update="false" label="Non-Fungible Token" value="nft"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Wipe Key" max_length="100" name="wipe_key" reference="x_snc_hspoke_key" type="reference"/>
+        <index name="index">
+            <element name="kyc_key"/>
+        </index>
+        <index name="index2">
+            <element name="wipe_key"/>
+        </index>
+        <index name="index3">
+            <element name="pause_key"/>
+        </index>
+        <index name="index4">
+            <element name="freeze_key"/>
+        </index>
+        <index name="index5">
+            <element name="treasury_account"/>
+        </index>
+        <index name="index6">
+            <element name="supply_key"/>
+        </index>
+        <index name="index7">
+            <element name="admin_key"/>
+        </index>
+        <index name="index8">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

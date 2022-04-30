@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_hspoke.hcli_home</name>
+        <read_roles/>
+        <suffix>hcli_home</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 10:23:06</sys_created_on>
+        <sys_id>3da20d2887a84110baf50fa90cbb35c9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_snc_hspoke.hcli_home</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_properties_3da20d2887a84110baf50fa90cbb35c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-20 05:28:09</sys_updated_on>
+        <type>string</type>
+        <value>/home/nicola/hcli</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3da20d2887a84110baf50fa90cbb35c9"/>
+</record_update>

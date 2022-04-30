@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_hspoke.tokengrantkyc_user" name="x_snc_hspoke.tokengrantkyc_user">728da53b872cc150baf50fa90cbb35ab</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-27 15:50:17</sys_created_on>
+        <sys_id>b28da53b872cc150baf50fa90cbb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>728da53b872cc150baf50fa90cbb35ab</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b28da53b872cc150baf50fa90cbb35ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 15:50:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

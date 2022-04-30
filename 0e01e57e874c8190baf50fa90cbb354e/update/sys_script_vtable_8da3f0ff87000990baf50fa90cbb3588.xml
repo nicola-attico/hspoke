@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Token</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    gr = new GlideRecord('x_snc_hspoke_token')
+    gr.query()
+    while (gr.next()) {
+        var endpoint = "https://" + gs.getProperty("x_snc_hspoke.mirror") + ".mirrornode.hedera.com/api/v1/tokens/" + gr.token_id
+        var sm = new sn_ws.RESTMessageV2()
+        sm.setEndpoint(endpoint)
+        sm.setHttpMethod('get')
+        resp = sm.execute()
+        var body = JSON.parse(resp.getBody())
+        //gs.addInfoMessage(resp.getBody())
+
+        //if (body.admin_key == null) { admin_key = null } else { admin_key = body.admin_key.key }
+
+		var admin_key = ( body.admin_key ? body.admin_key.key : null )
+		var supply_key = ( body.supply_key ? body.supply_key.key : null )
+		var freeze_key = ( body.freeze_key ? body.freeze_key.key : null )
+		var pause_key = ( body.pause_key ? body.pause_key.key : null )
+		var wipe_key = ( body.wipe_key ? body.wipe_key.key : null )
+		var kyc_key = ( body.kyc_key ? body.kyc_key.key : null )
+		
+		
+		
+        //gs.addInfoMessage(new GlideDateTime().setNumericValue(body.created_timestamp.split('.')))
+
+        var row = {
+            sys_id: body.token_id,
+            token_id: body.token_id,
+			name: gr.name,
+			token_name: body.name,
+            type: body.type,
+            symbol: body.symbol,
+            admin_key_suffix: admin_key,
+            decimals: body.decimals,
+            deleted: body.deleted,
+            freeze_key_suffix: freeze_key,
+            initial_supply: body.initial_supply,
+            kyc_key_suffix: kyc_key,
+            max_supply: body.max_supply,
+            memo: body.memo,
+            pause_key_suffix: pause_key,
+            pause_status: body.pause_status,
+            supply_type: body.supply_type,
+            symbol: body.symbol,
+            token_id: body.token_id,
+            total_supply: body.total_supply,
+            treasury_account_id: body.treasury_account_id,
+            type: body.type,
+            wipe_key_suffix: wipe_key,
+			supply_key_suffix: supply_key
+        }
+
+        v_table.addRow(row)
+    }
+
+
+
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 15:23:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8da3f0ff87000990baf50fa90cbb3588</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>Token</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-22 12:45:18</sys_updated_on>
+        <table>x_snc_hspoke_st_token</table>
+    </sys_script_vtable>
+</record_update>

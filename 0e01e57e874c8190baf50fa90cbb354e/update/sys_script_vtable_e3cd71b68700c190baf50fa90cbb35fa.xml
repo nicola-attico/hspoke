@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Account</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    gr = new GlideRecord('x_snc_hspoke_account')
+    gr.query()
+    while (gr.next()) {
+        var endpoint = "https://" + gs.getProperty("x_snc_hspoke.mirror") + ".mirrornode.hedera.com/api/v1/accounts/" + gr.account_id
+        var sm = new sn_ws.RESTMessageV2()
+        sm.setEndpoint(endpoint)
+        sm.setRequestHeader('X-API-KEY', '8dff0aff-de40-38ac-b980-b162adeb49e1')
+        sm.setHttpMethod('get')
+        resp = sm.execute()
+        var body = JSON.parse(resp.getBody())
+		
+		key = new GlideRecord("x_snc_hspoke_key")
+		key.get("public_key_suffix", body.key.key)
+		
+        row = {
+			sys_id: body.account,
+            account_id: body.account,
+			name: gr.name,
+			balance: Number(body.balance.balance).toLocaleString(),
+			key: key.sys_id,
+			key_suffix: body.key.key,
+			memo: body.memo,
+			deleted: body.deleted
+        }
+
+        v_table.addRow(row)
+    }
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-29 17:59:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3cd71b68700c190baf50fa90cbb35fa</sys_id>
+        <sys_mod_count>206</sys_mod_count>
+        <sys_name>Account</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_e3cd71b68700c190baf50fa90cbb35fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-22 12:44:18</sys_updated_on>
+        <table>x_snc_hspoke_st_account</table>
+    </sys_script_vtable>
+</record_update>

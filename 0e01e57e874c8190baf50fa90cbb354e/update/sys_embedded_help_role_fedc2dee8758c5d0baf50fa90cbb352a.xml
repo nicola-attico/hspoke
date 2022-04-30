@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_hspoke.dg_accounts_user" name="x_snc_hspoke.dg_accounts_user">b6dc2dee8758c5d0baf50fa90cbb3527</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-11 08:19:11</sys_created_on>
+        <sys_id>fedc2dee8758c5d0baf50fa90cbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6dc2dee8758c5d0baf50fa90cbb3527</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fedc2dee8758c5d0baf50fa90cbb352a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-11 08:19:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

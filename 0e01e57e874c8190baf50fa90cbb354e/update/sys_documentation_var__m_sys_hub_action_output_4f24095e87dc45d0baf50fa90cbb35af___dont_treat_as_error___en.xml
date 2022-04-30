@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="__dont_treat_as_error__" label="Don't Treat as Error" language="en" table="var__m_sys_hub_action_output_4f24095e87dc45d0baf50fa90cbb35af">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>__dont_treat_as_error__</element>
+            <help/>
+            <hint/>
+            <label>Don't Treat as Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4f24095e87dc45d0baf50fa90cbb35af</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-10 10:44:06</sys_created_on>
+            <sys_id>ff64419e87dc45d0baf50fa90cbb350b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Don't Treat as Error</sys_name>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f24095e87dc45d0baf50fa90cbb35af___dont_treat_as_error___en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-10 10:44:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

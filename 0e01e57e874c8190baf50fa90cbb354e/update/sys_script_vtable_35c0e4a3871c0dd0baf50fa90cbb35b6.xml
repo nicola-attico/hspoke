@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Balances</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    try {
+
+        var re = /^account\.sys_id=/
+        var re2 = /^account_id=/
+
+        var gr = new GlideRecord('x_snc_hspoke_account');
+
+        if (re.test(v_query.getEncodedQuery())) {
+            sys_id = v_query.getEncodedQuery().split("=")[1]
+            gr.query("sys_id", sys_id); //returns glide list instead of record
+            loadBalances(gr)
+        } else if (re2.test(v_query.getEncodedQuery())) {
+            account_id = v_query.getEncodedQuery().split("=")[1]
+            gr.query("account_id", account_id);
+            loadBalances(gr)
+        } else {
+            var gr = new GlideRecord('x_snc_hspoke_account');
+            gr.query();
+            loadBalances(gr)
+        }
+    } catch (e) {
+        gs.addInfoMessage(e)
+    }
+
+
+    function loadBalances(accounts) {
+        try {
+            var inputs = {};
+            inputs['accounts'] = accounts; // List
+
+            var result = sn_fd.FlowAPI.getRunner().action('x_snc_hspoke.queryaccountbalances2').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+
+            var out = outputs['out'];
+            //gs.addInfoMessage(out)
+            var res = JSON.parse(out);
+
+            for (j = 0; j < res.resp.length; j++) {
+                for (i = 0; i < res.resp[j][1].tokens.length; i++) {
+
+                    var t = new GlideRecord('x_snc_hspoke_token');
+                    t.get('token_id', res.resp[j][1].tokens[i].tokenId)
+                    var a = new GlideRecord('x_snc_hspoke_account')
+                    a.get('account_id', res.resp[j][0])
+
+                    if (t) {
+
+                        row = {
+                            sys_id: gs.generateGUID(),
+                            account: a.sys_id,
+                            account_id: a.account_id,
+                            name: a.name,
+                            token: t.sys_id,
+                            token_id: t.token_id,
+                            balance: res.resp[j][1].tokens[i].balance,
+                            decimals: res.resp[j][1].tokens[i].decimals,
+                            fmt_balance: new Utils().add_comma(res.resp[j][1].tokens[i].balance, Number(res.resp[j][1].tokens[i].decimals))
+                        }
+
+                        v_table.addRow(row)
+                    }
+                }
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(message);
+        }
+    }
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 05:34:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35c0e4a3871c0dd0baf50fa90cbb35b6</sys_id>
+        <sys_mod_count>99</sys_mod_count>
+        <sys_name>Balances</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_35c0e4a3871c0dd0baf50fa90cbb35b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 17:19:20</sys_updated_on>
+        <table>x_snc_hspoke_st_balances</table>
+    </sys_script_vtable>
+</record_update>

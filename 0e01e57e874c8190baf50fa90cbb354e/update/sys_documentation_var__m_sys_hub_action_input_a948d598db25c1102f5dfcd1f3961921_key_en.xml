@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="key" label="key" language="en" table="var__m_sys_hub_action_input_a948d598db25c1102f5dfcd1f3961921">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>key</element>
+            <help/>
+            <hint/>
+            <label>key</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a948d598db25c1102f5dfcd1f3961921</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-02-04 10:21:25</sys_created_on>
+            <sys_id>f148d598db25c1102f5dfcd1f396197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>key</sys_name>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a948d598db25c1102f5dfcd1f3961921_key_en</sys_update_name>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-02-04 10:21:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="read_only=true" label="Balances" max_length="40" name="x_snc_hspoke_st_balances" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Account" max_length="32" name="account" reference="x_snc_hspoke_account" type="reference"/>
+        <element label="Account Id" max_length="20" name="account_id" type="string"/>
+        <element label="Account Number" max_length="40" name="account_number" type="string"/>
+        <element label="Balance" max_length="50" name="balance" type="string"/>
+        <element label="Decimals" max_length="50" name="decimals" type="string"/>
+        <element label="Formatted Balance" max_length="100" name="fmt_balance" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Token" max_length="32" name="token" reference="x_snc_hspoke_token" type="reference"/>
+        <element label="Token Id" max_length="20" name="token_id" type="string"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+        <index name="index2">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

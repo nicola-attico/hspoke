@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="transaction_hash" label="transaction_hash" language="en" table="var__m_sys_hub_action_output_4ab8b2f98712c510481887b60cbb355e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>transaction_hash</element>
+            <help/>
+            <hint/>
+            <label>transaction_hash</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ab8b2f98712c510481887b60cbb355e</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 16:00:48</sys_created_on>
+            <sys_id>66b8f2f98712c510481887b60cbb352b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>transaction_hash</sys_name>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4ab8b2f98712c510481887b60cbb355e_transaction_hash_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 16:00:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

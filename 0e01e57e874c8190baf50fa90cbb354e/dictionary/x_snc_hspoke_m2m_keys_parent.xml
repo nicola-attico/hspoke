@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hconnector M2m Keys Parent" max_length="40" name="x_snc_hspoke_m2m_keys_parent" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Key" max_length="32" name="child" reference="x_snc_hspoke_key" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Key" max_length="32" name="parent" reference="x_snc_hspoke_key" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="child"/>
+        </index>
+    </element>
+</database>

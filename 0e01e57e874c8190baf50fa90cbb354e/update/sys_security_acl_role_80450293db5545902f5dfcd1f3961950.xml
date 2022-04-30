@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-02-01 11:03:59</sys_created_on>
+        <sys_id>80450293db5545902f5dfcd1f3961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_topic.x_snc_hspoke.topic_user</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_security_acl display_value="x_snc_hspoke_topic">4c450293db5545902f5dfcd1f3961949</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_80450293db5545902f5dfcd1f3961950</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-01 11:03:59</sys_updated_on>
+        <sys_user_role display_value="x_snc_hspoke.topic_user" name="x_snc_hspoke.topic_user">4045825fdb1545902f5dfcd1f396191a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

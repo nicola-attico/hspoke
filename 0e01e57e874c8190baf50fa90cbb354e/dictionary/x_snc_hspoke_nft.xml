@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NFT" max_length="40" name="x_snc_hspoke_nft" type="collection">
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="Serial" max_length="50" name="serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Token" max_length="32" name="token" reference="x_snc_hspoke_token" type="reference"/>
+        <index name="index">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

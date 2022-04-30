@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_hspoke.Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Utils</name>
+        <script><![CDATA[var Utils = Class.create();
+Utils.prototype = {
+    initialize: function() {},
+    add_comma: function(str, decimals) {
+        if (str.length <= decimals) {
+            str = ('0'.repeat(decimals - str.length + 1)) + str;
+        }
+        x = str.substring(0, str.length - decimals) + '.' + str.substring(str.length - decimals)
+//        return x.replace(/.0*$/, "");
+		return x;
+    },
+    tx_output: function(tx, cmdout, result) {
+        try {
+            tx.output = cmdout;
+            output = JSON.parse(cmdout);
+            tx.transaction_id = output.resp.transactionId;
+            tx.transaction_hash = output.resp.transactionHash;
+            tx.transaction_fee = output.record.transactionFee;
+
+            if (output.receipt.status == 'SUCCESS') {
+                tx.status = 'completed';
+                tx.hedera_status = output.receipt.status;
+            } else {
+                throw Error("Hedera status is not success");
+            }
+        } catch (e) {
+            gs.error(e);
+            tx.out_parsing_log = e.toString();
+            tx.hedera_status = output.error.status;
+            tx.status = 'failed';
+        } finally {
+            tx.update();
+        }
+    },
+    type: 'Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 09:21:24</sys_created_on>
+        <sys_id>23d0f320877c0950baf50fa90cbb3525</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Utils</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_include_23d0f320877c0950baf50fa90cbb3525</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-03 14:55:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

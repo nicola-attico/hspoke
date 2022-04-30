@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_hspoke_transaction" label="tokenassociate" max_length="40" name="x_snc_hspoke_tokenassociate" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Account" max_length="32" name="account" reference="x_snc_hspoke_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Token" max_length="32" name="token" reference="x_snc_hspoke_token" type="reference"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+        <index name="index2">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

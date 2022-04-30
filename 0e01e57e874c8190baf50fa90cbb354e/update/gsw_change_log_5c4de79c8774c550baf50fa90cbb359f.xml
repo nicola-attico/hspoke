@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2021-12-29 14:25:13</change_date>
+        <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <content display_value="Agent Assist">adba7fd57761201022f7f4d268106154</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-29 14:25:13</sys_created_on>
+        <sys_id>5c4de79c8774c550baf50fa90cbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2021-12-29 14:25:13</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>gsw_change_log_5c4de79c8774c550baf50fa90cbb359f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-29 14:25:13</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

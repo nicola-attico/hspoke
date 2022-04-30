@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="716d6abe870905102560021a0cbb3587" sys_domain="global" table="x_snc_hspoke_token" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-18 14:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f16d22fe870905102560021a0cbb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hspoke_token" name="x_snc_hspoke_token" sys_domain="global" view="Default view">716d6abe870905102560021a0cbb3587</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hspoke_token" sys_domain="global" view="Default view">fdd8528c87dc4990baf50fa90cbb356d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-18 14:26:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-18 14:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>716d22fe870905102560021a0cbb353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hspoke_token" name="x_snc_hspoke_token" sys_domain="global" view="Default view">716d6abe870905102560021a0cbb3587</sys_ui_form>
+            <sys_ui_section caption="From MirrorNet" display_value="From MirrorNet" name="x_snc_hspoke_token" sys_domain="global" view="Default view">7d6d22fe870905102560021a0cbb353c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-18 14:26:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_hspoke_token</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-18 14:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>716d6abe870905102560021a0cbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hspoke_token</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_716d6abe870905102560021a0cbb3587</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-18 14:26:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
