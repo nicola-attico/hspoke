@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_snc_hspoke_st_nft" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>token</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3788da4c87dc4990baf50fa90cbb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3b88da4c87dc4990baf50fa90cbb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>metadata</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3f88da4c87dc4990baf50fa90cbb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>deleted</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3388da4c87dc4990baf50fa90cbb35f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>created</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3788da4c87dc4990baf50fa90cbb35f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>updated</element>
+            <list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_id>3b88da4c87dc4990baf50fa90cbb35f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_hspoke_st_nft</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 17:05:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b788da4c87dc4990baf50fa90cbb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hspoke_st_nft</sys_name>
+            <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_hspoke_st_nft_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 17:05:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_ui_list_x_snc_hspoke_st_nft_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_hspoke_st_nft" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>token</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3788da4c87dc4990baf50fa90cbb35ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>serial_number</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3b88da4c87dc4990baf50fa90cbb35ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>metadata</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3f88da4c87dc4990baf50fa90cbb35ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>deleted</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3388da4c87dc4990baf50fa90cbb35f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>created</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3788da4c87dc4990baf50fa90cbb35f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>updated</element><list_id display_value="x_snc_hspoke_st_nft" element="NULL" name="x_snc_hspoke_st_nft" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b788da4c87dc4990baf50fa90cbb35ee</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_id>3b88da4c87dc4990baf50fa90cbb35f0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_snc_hspoke_st_nft</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:05:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b788da4c87dc4990baf50fa90cbb35ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hspoke_st_nft</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_ui_list_x_snc_hspoke_st_nft_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:05:18</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1641574127</payload_hash>
+        <record_name>NFT</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:52</sys_created_on>
+        <sys_id>b6af4a27470f01101cf79454836d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e537c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:52</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>76af4a27410f0110b3bfd00ea68d5842</update_guid>
+        <update_guid_history>76af4a27410f0110b3bfd00ea68d5842:-1641574127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 13:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>10da37a378544be885e728642a47f240</sys_id>
+        <sys_metadata>b788da4c87dc4990baf50fa90cbb35ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_st_nft</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent display_value="">a4c0f67fdb61011074ee4d7605961920</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_snc_hspoke_st_nft_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_snc_hspoke_st_nft_null">b6af4a27470f01101cf79454836d4342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 13:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

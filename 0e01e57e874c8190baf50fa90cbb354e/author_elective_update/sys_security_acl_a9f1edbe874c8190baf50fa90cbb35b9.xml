@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_hspoke_key</description>
+        <name>x_snc_hspoke_key</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-29 15:54:21</sys_created_on>
+        <sys_id>a9f1edbe874c8190baf50fa90cbb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_key</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_security_acl_a9f1edbe874c8190baf50fa90cbb35b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-29 15:54:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_security_acl_a9f1edbe874c8190baf50fa90cbb35b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hspoke_key</description><name>x_snc_hspoke_key</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-29 15:54:21</sys_created_on><sys_id>a9f1edbe874c8190baf50fa90cbb35b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hspoke_key</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_security_acl_a9f1edbe874c8190baf50fa90cbb35b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-29 15:54:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-700499708</payload_hash>
+        <record_name>x_snc_hspoke_key</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:42</sys_created_on>
+        <sys_id>98af4627470f01101cf79454836d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e2c790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:42</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>58af4627720f0110e2d76ef12f6facf2</update_guid>
+        <update_guid_history>58af4627720f0110e2d76ef12f6facf2:-700499708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 13:38:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>39af030df56d46dab3372cca20aa0164</sys_id>
+        <sys_metadata>a9f1edbe874c8190baf50fa90cbb35b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_key</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent display_value="">2cc0f67fdb61011074ee4d7605961954</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a9f1edbe874c8190baf50fa90cbb35b9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a9f1edbe874c8190baf50fa90cbb35b9">98af4627470f01101cf79454836d43f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 13:38:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

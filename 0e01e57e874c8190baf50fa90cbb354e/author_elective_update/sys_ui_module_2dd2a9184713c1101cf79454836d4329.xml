@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Hedera Spoke">29d2a9184713c1101cf79454836d4327</application>
+        <filter/>
+        <name>Txes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_hspoke.tx_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 10:57:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2dd2a9184713c1101cf79454836d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Txes</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_ui_module_2dd2a9184713c1101cf79454836d4329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:57:25</sys_updated_on>
+        <table>x_snc_hspoke_tx</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_ui_module_2dd2a9184713c1101cf79454836d4329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hedera Spoke">29d2a9184713c1101cf79454836d4327</application><filter/><name>Txes</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_hspoke.tx_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-02 10:57:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2dd2a9184713c1101cf79454836d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Txes</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_ui_module_2dd2a9184713c1101cf79454836d4329</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-02 10:57:25</sys_updated_on><table>x_snc_hspoke_tx</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>63626253</payload_hash>
+        <record_name>Txes</record_name>
+        <reverted_from/>
+        <source>66529aa7470f01101cf79454836d437f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 10:57:26</sys_created_on>
+        <sys_id>2dd2a9184713c1101cf79454836d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180846afe0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:57:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>65d2a9181c13c110a79feeb40472752b</update_guid>
+        <update_guid_history>65d2a9181c13c110a79feeb40472752b:63626253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 13:47:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>004a59b6b1ab4d80807872ad73e33110</sys_id>
+        <sys_metadata>2dd2a9184713c1101cf79454836d4329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Txes</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2dd2a9184713c1101cf79454836d4329</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2dd2a9184713c1101cf79454836d4329">2dd2a9184713c1101cf79454836d432b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 13:47:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,45 +16,5 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-11-29 15:56:23</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Key</label>
-            <language>en</language>
-            <name>x_snc_hspoke_key</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-29 15:56:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>25626dfe874c8190baf50fa90cbb35cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-29 15:56:23</sys_updated_on>
-            <value>key</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Keylist</label>
-            <language>en</language>
-            <name>x_snc_hspoke_key</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-29 15:56:35</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0c72adfe874c8190baf50fa90cbb354d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-29 15:56:35</sys_updated_on>
-            <value>keylist</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

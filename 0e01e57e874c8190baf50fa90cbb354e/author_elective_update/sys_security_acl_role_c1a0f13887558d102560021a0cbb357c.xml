@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 15:09:08</sys_created_on>
+        <sys_id>c1a0f13887558d102560021a0cbb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_nft.x_snc_hspoke.nft_user</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_security_acl display_value="x_snc_hspoke_nft">c5a0f13887558d102560021a0cbb3578</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c1a0f13887558d102560021a0cbb357c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 15:09:08</sys_updated_on>
+        <sys_user_role display_value="x_snc_hspoke.nft_user" name="x_snc_hspoke.nft_user">ae87650887d84990baf50fa90cbb35c7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_security_acl_role_c1a0f13887558d102560021a0cbb357c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 15:09:08</sys_created_on><sys_id>c1a0f13887558d102560021a0cbb357c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hspoke_nft.x_snc_hspoke.nft_user</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_security_acl display_value="x_snc_hspoke_nft">c5a0f13887558d102560021a0cbb3578</sys_security_acl><sys_update_name>sys_security_acl_role_c1a0f13887558d102560021a0cbb357c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 15:09:08</sys_updated_on><sys_user_role display_value="x_snc_hspoke.nft_user" name="x_snc_hspoke.nft_user">ae87650887d84990baf50fa90cbb35c7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1560363620</payload_hash>
+        <record_name>x_snc_hspoke_nft.x_snc_hspoke.nft_user</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:48</sys_created_on>
+        <sys_id>fdafc627470f01101cf79454836d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e43520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:48</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bdafc6274e0f0110456bccb091eca1c0</update_guid>
+        <update_guid_history>bdafc6274e0f0110456bccb091eca1c0:1560363620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_hspoke_nft.x_snc_hspoke.nft_user">87aedf65477745501cf79454836d43e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 13:42:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0d78daad6fa6419e89d85341b3efb964</sys_id>
+        <sys_metadata>c1a0f13887558d102560021a0cbb357c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_nft.x_snc_hspoke.nft_user</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent display_value="">c5a0f13887558d102560021a0cbb3578</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c1a0f13887558d102560021a0cbb357c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c1a0f13887558d102560021a0cbb357c">fdafc627470f01101cf79454836d43c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 13:42:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

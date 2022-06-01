@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>NFT</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 14:00:48</sys_created_on>
+        <sys_id>6f34262c870d49902560021a0cbb35f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NFT</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_6f34262c870d49902560021a0cbb35f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:01:10</sys_updated_on>
+        <table>x_snc_hspoke_tokencreate</table>
+        <template>status=new^symbol=N^token_name=NFTNOW^type=nft^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_template_6f34262c870d49902560021a0cbb35f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>NFT</name><next/><next_child/><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-11 14:00:48</sys_created_on><sys_id>6f34262c870d49902560021a0cbb35f7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NFT</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_template_6f34262c870d49902560021a0cbb35f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-11 14:01:10</sys_updated_on><table>x_snc_hspoke_tokencreate</table><template>status=new^symbol=N^token_name=NFTNOW^type=nft^EQ</template><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>1543364305</payload_hash>
+        <record_name>NFT</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:49</sys_created_on>
+        <sys_id>06af0a27470f01101cf79454836d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e48550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:49</sys_updated_on>
+        <type>Template</type>
+        <update_guid>c2af0a27e20f011008877e2788888561</update_guid>
+        <update_guid_history>c2af0a27e20f011008877e2788888561:1543364305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 10:49:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>230b1215724d42ea87c31889243ad4f1</sys_id>
+        <sys_metadata>6f34262c870d49902560021a0cbb35f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NFT</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_template_6f34262c870d49902560021a0cbb35f7</sys_update_name>
+        <sys_update_version display_value="sys_template_6f34262c870d49902560021a0cbb35f7">06af0a27470f01101cf79454836d4361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:49:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

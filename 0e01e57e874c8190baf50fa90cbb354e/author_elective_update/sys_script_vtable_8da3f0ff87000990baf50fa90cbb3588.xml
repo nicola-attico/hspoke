@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Token</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    gr = new GlideRecord('x_snc_hspoke_token')
+    gr.query()
+    while (gr.next()) {
+        var endpoint = "https://" + gs.getProperty("x_snc_hspoke.mirror") + ".mirrornode.hedera.com/api/v1/tokens/" + gr.token_id
+        var sm = new sn_ws.RESTMessageV2()
+        sm.setEndpoint(endpoint)
+        sm.setHttpMethod('get')
+        resp = sm.execute()
+        var body = JSON.parse(resp.getBody())
+        //gs.addInfoMessage(resp.getBody())
+
+        //if (body.admin_key == null) { admin_key = null } else { admin_key = body.admin_key.key }
+
+		var admin_key = ( body.admin_key ? body.admin_key.key : null )
+		var supply_key = ( body.supply_key ? body.supply_key.key : null )
+		var freeze_key = ( body.freeze_key ? body.freeze_key.key : null )
+		var pause_key = ( body.pause_key ? body.pause_key.key : null )
+		var wipe_key = ( body.wipe_key ? body.wipe_key.key : null )
+		var kyc_key = ( body.kyc_key ? body.kyc_key.key : null )
+		
+		
+		
+        //gs.addInfoMessage(new GlideDateTime().setNumericValue(body.created_timestamp.split('.')))
+
+        var row = {
+            sys_id: body.token_id,
+            token_id: body.token_id,
+			name: gr.name,
+			token_name: body.name,
+            type: body.type,
+            symbol: body.symbol,
+            admin_key_suffix: admin_key,
+            decimals: body.decimals,
+            deleted: body.deleted,
+            freeze_key_suffix: freeze_key,
+            initial_supply: body.initial_supply,
+            kyc_key_suffix: kyc_key,
+            max_supply: body.max_supply,
+            memo: body.memo,
+            pause_key_suffix: pause_key,
+            pause_status: body.pause_status,
+            supply_type: body.supply_type,
+            symbol: body.symbol,
+            token_id: body.token_id,
+            total_supply: body.total_supply,
+            treasury_account_id: body.treasury_account_id,
+            type: body.type,
+            wipe_key_suffix: wipe_key,
+			supply_key_suffix: supply_key
+        }
+
+        v_table.addRow(row)
+    }
+
+
+
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 15:23:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8da3f0ff87000990baf50fa90cbb3588</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>Token</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-22 12:45:18</sys_updated_on>
+        <table>x_snc_hspoke_st_token</table>
+    </sys_script_vtable>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl&gt;0&lt;/cache_ttl&gt;&lt;name&gt;Token&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+
+    gr = new GlideRecord('x_snc_hspoke_token')
+    gr.query()
+    while (gr.next()) {
+        var endpoint = "https://" + gs.getProperty("x_snc_hspoke.mirror") + ".mirrornode.hedera.com/api/v1/tokens/" + gr.token_id
+        var sm = new sn_ws.RESTMessageV2()
+        sm.setEndpoint(endpoint)
+        sm.setHttpMethod('get')
+        resp = sm.execute()
+        var body = JSON.parse(resp.getBody())
+        //gs.addInfoMessage(resp.getBody())
+
+        //if (body.admin_key == null) { admin_key = null } else { admin_key = body.admin_key.key }
+
+		var admin_key = ( body.admin_key ? body.admin_key.key : null )
+		var supply_key = ( body.supply_key ? body.supply_key.key : null )
+		var freeze_key = ( body.freeze_key ? body.freeze_key.key : null )
+		var pause_key = ( body.pause_key ? body.pause_key.key : null )
+		var wipe_key = ( body.wipe_key ? body.wipe_key.key : null )
+		var kyc_key = ( body.kyc_key ? body.kyc_key.key : null )
+		
+		
+		
+        //gs.addInfoMessage(new GlideDateTime().setNumericValue(body.created_timestamp.split('.')))
+
+        var row = {
+            sys_id: body.token_id,
+            token_id: body.token_id,
+			name: gr.name,
+			token_name: body.name,
+            type: body.type,
+            symbol: body.symbol,
+            admin_key_suffix: admin_key,
+            decimals: body.decimals,
+            deleted: body.deleted,
+            freeze_key_suffix: freeze_key,
+            initial_supply: body.initial_supply,
+            kyc_key_suffix: kyc_key,
+            max_supply: body.max_supply,
+            memo: body.memo,
+            pause_key_suffix: pause_key,
+            pause_status: body.pause_status,
+            supply_type: body.supply_type,
+            symbol: body.symbol,
+            token_id: body.token_id,
+            total_supply: body.total_supply,
+            treasury_account_id: body.treasury_account_id,
+            type: body.type,
+            wipe_key_suffix: wipe_key,
+			supply_key_suffix: supply_key
+        }
+
+        v_table.addRow(row)
+    }
+
+
+
+
+
+})(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-02 15:23:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8da3f0ff87000990baf50fa90cbb3588&lt;/sys_id&gt;&lt;sys_mod_count&gt;64&lt;/sys_mod_count&gt;&lt;sys_name&gt;Token&lt;/sys_name&gt;&lt;sys_package display_value="hspoke" source="x_snc_hspoke"&gt;0e01e57e874c8190baf50fa90cbb354e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="hspoke"&gt;0e01e57e874c8190baf50fa90cbb354e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-22 12:45:18&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_hspoke_st_token&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1840575435</payload_hash>
+        <record_name>Token</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:38</sys_created_on>
+        <sys_id>679f0627470f01101cf79454836d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e1d340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:38</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>279f0627220f0110817bd46be1894fd0</update_guid>
+        <update_guid_history>279f0627220f0110817bd46be1894fd0:1840575435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 13:46:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>52aa10ea246b45b5abf91d9112c31781</sys_id>
+        <sys_metadata>8da3f0ff87000990baf50fa90cbb3588</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Token</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_8da3f0ff87000990baf50fa90cbb3588">679f0627470f01101cf79454836d43d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 13:46:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

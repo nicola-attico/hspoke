@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD28db796d5a574110be8aecd4cb13f3e5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e01e57e874c8190baf50fa90cbb354e</scope_name>
+        <serialized_content>{"FlowDesigner:FD28db796d5a574110be8aecd4cb13f3e5":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD28db796d5a574110be8aecd4cb13f3e5.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"serials\",\"mandatory\":\"false\",\"child_name\":\"serials_child0\",\"uiUniqueId\":\"22c290be-efbb-41c3-84dc-3fdb156540db\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD28db796d5a574110be8aecd4cb13f3e5\",\"child_label\":\"serials_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"76b43666-af6b-4555-82a7-1e32f63daee6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-06 09:59:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8db796d475741101cf79454836d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD28db796d5a574110be8aecd4cb13f3e5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_complex_object_e8db796d475741101cf79454836d43e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-06 09:59:00</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

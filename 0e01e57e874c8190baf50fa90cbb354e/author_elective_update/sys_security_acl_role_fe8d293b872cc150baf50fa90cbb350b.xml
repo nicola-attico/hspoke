@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-27 15:50:17</sys_created_on>
+        <sys_id>fe8d293b872cc150baf50fa90cbb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_tokengrantkyc.x_snc_hspoke.tokengrantkyc_user</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_security_acl display_value="x_snc_hspoke_tokengrantkyc">3e8d293b872cc150baf50fa90cbb3507</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fe8d293b872cc150baf50fa90cbb350b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 15:50:17</sys_updated_on>
+        <sys_user_role display_value="x_snc_hspoke.tokengrantkyc_user" name="x_snc_hspoke.tokengrantkyc_user">728da53b872cc150baf50fa90cbb35ab</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_security_acl_role_fe8d293b872cc150baf50fa90cbb350b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-27 15:50:17</sys_created_on><sys_id>fe8d293b872cc150baf50fa90cbb350b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hspoke_tokengrantkyc.x_snc_hspoke.tokengrantkyc_user</sys_name><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_security_acl display_value="x_snc_hspoke_tokengrantkyc">3e8d293b872cc150baf50fa90cbb3507</sys_security_acl><sys_update_name>sys_security_acl_role_fe8d293b872cc150baf50fa90cbb350b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-27 15:50:17</sys_updated_on><sys_user_role display_value="x_snc_hspoke.tokengrantkyc_user" name="x_snc_hspoke.tokengrantkyc_user">728da53b872cc150baf50fa90cbb35ab</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2116330472</payload_hash>
+        <record_name>x_snc_hspoke_tokengrantkyc.x_snc_hspoke.tokengrantkyc_user</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:17:49</sys_created_on>
+        <sys_id>02af0a27470f01101cf79454836d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791e47980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:17:49</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ceaf0a27200f0110ca2f441119a97948</update_guid>
+        <update_guid_history>ceaf0a27200f0110ca2f441119a97948:2116330472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_hspoke_tokengrantkyc.x_snc_hspoke.tokengrantkyc_user">323121944713c1101cf79454836d437a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 10:50:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>63d5972f40774f828f5b16403c6546e4</sys_id>
+        <sys_metadata>fe8d293b872cc150baf50fa90cbb350b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hspoke_tokengrantkyc.x_snc_hspoke.tokengrantkyc_user</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent display_value="">3e8d293b872cc150baf50fa90cbb3507</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fe8d293b872cc150baf50fa90cbb350b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fe8d293b872cc150baf50fa90cbb350b">02af0a27470f01101cf79454836d4349</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:50:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

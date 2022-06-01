@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Topic" max_length="40" name="x_snc_hspoke_topic" type="collection">
-        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
-        <element label="Topic Id" max_length="20" name="topic_id" type="string"/>
-    </element>
-</database>

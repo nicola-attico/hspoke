@@ -16,25 +16,5 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-12-27 13:02:43</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>supply_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>INFINITE</label>
-            <language>en</language>
-            <name>x_snc_hspoke_st_token</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 13:02:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e27c1fb8728c150baf50fa90cbb35ea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 13:02:43</sys_updated_on>
-            <value>INFINITE</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

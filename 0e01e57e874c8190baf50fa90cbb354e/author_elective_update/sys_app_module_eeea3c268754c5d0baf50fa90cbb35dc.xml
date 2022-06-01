@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Hedera Connector">19f1edbe874c8190baf50fa90cbb3558</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>tokencreates</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_hspoke_tokencreate</name>
+        <order>130</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_hspoke.tokencreate_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-11 04:40:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eeea3c268754c5d0baf50fa90cbb35dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TokenCreate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_app_module_eeea3c268754c5d0baf50fa90cbb35dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 13:50:57</sys_updated_on>
+        <timeline_page/>
+        <title>TokenCreate</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_app_module_eeea3c268754c5d0baf50fa90cbb35dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hedera Connector">19f1edbe874c8190baf50fa90cbb3558</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>tokencreates</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hspoke_tokencreate</name><order>130</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hspoke.tokencreate_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-11 04:40:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eeea3c268754c5d0baf50fa90cbb35dc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>TokenCreate</sys_name><sys_overrides/><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_app_module_eeea3c268754c5d0baf50fa90cbb35dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-27 13:50:57</sys_updated_on><timeline_page/><title>TokenCreate</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>10225634</payload_hash>
+        <record_name>TokenCreate</record_name>
+        <reverted_from/>
+        <source>192e4eaf47cb01101cf79454836d4353</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 06:14:35</sys_created_on>
+        <sys_id>feee8263470f01101cf79454836d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180791b53ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 06:14:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>beee8263e40f011086e6ed6f76c9bb46</update_guid>
+        <update_guid_history>beee8263e40f011086e6ed6f76c9bb46:10225634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TokenCreate">7211a9544713c1101cf79454836d4343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 10:49:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1ad6250054c443a6a59c8a9b1fca4184</sys_id>
+        <sys_metadata>eeea3c268754c5d0baf50fa90cbb35dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TokenCreate</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_app_module_eeea3c268754c5d0baf50fa90cbb35dc</sys_update_name>
+        <sys_update_version display_value="sys_app_module_eeea3c268754c5d0baf50fa90cbb35dc">feee8263470f01101cf79454836d4346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:49:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

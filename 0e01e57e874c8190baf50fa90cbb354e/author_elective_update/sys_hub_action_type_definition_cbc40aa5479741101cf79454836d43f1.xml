@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>wipe_ft</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>wipe_ft</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-06 10:38:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbc40aa5479741101cf79454836d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wipe_ft</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_cbc40aa5479741101cf79454836d43f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-06 10:38:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_variable_value action="DELETE" query="document_key=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_step_instance action="DELETE" query="action=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_action_input action="DELETE" query="model=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_action_output action="DELETE" query="model=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_cbc40aa5479741101cf79454836d43f1"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_cbc40aa5479741101cf79454836d43f1"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_cbc40aa5479741101cf79454836d43f1"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_cbc40aa5479741101cf79454836d43f1"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=cbc40aa5479741101cf79454836d43f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>35010653dbcb011091232f17d49619f0</instance_id>
+        <instance_name>hedera</instance_name>
+        <name>sys_hub_action_type_definition_cbc40aa5479741101cf79454836d43f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>wipe_ft</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>wipe_ft</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-06 10:38:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbc40aa5479741101cf79454836d43f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>wipe_ft</sys_name><sys_overrides/><sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_hub_action_type_definition_cbc40aa5479741101cf79454836d43f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-06 10:38:13</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=cbc40aa5479741101cf79454836d43f1"/><sys_variable_value action="delete_multiple" query="document_key=cbc40aa5479741101cf79454836d43f1"/><sys_hub_step_instance action="delete_multiple" query="action=cbc40aa5479741101cf79454836d43f1"/><sys_hub_action_input action="delete_multiple" query="model=cbc40aa5479741101cf79454836d43f1"/><sys_hub_action_output action="delete_multiple" query="model=cbc40aa5479741101cf79454836d43f1"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=cbc40aa5479741101cf79454836d43f1"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=cbc40aa5479741101cf79454836d43f1"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_cbc40aa5479741101cf79454836d43f1"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_cbc40aa5479741101cf79454836d43f1"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_cbc40aa5479741101cf79454836d43f1"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_cbc40aa5479741101cf79454836d43f1"/><sys_hub_action_plan action="delete_multiple" query="action_id=cbc40aa5479741101cf79454836d43f1"/></record_update>]]></payload>
+        <payload_hash>-1585219652</payload_hash>
+        <record_name>wipe_ft</record_name>
+        <reverted_from/>
+        <source>66529aa7470f01101cf79454836d437f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-06 10:38:13</sys_created_on>
+        <sys_id>0bc40aa5479741101cf79454836d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18098f2d9900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-06 10:38:13</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>43c40aa57a974110b9f6d2fc408382f5</update_guid>
+        <update_guid_history>43c40aa57a974110b9f6d2fc408382f5:-1585219652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-06 10:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>2d37687bfef74e659c7d4ff0ab2c6de9</sys_id>
+        <sys_metadata>cbc40aa5479741101cf79454836d43f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wipe_ft</sys_name>
+        <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_cbc40aa5479741101cf79454836d43f1</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_cbc40aa5479741101cf79454836d43f1">0bc40aa5479741101cf79454836d43f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-06 10:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
