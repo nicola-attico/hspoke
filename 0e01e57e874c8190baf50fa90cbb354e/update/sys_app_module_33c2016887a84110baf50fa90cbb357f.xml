@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Hedera Connector">19f1edbe874c8190baf50fa90cbb3558</application>
+        <application display_value="Hedera Spoke">19f1edbe874c8190baf50fa90cbb3558</application>
         <assessment/>
         <device_type/>
         <filter table="sys_properties">sys_scope=0e01e57e874c8190baf50fa90cbb354e^EQ<item display_table="sys_scope" display_value="hspoke" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="0e01e57e874c8190baf50fa90cbb354e"/>

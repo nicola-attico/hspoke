@@ -8,7 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch3-04-27-2022_05-11-2022_1201.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch3-hotfix2-05-19-2022_05-20-2022_1555.zip</compiler_build>
         <copied_from>973e65f7471b41101cf79454836d438d</copied_from>
         <copied_from_name>create_topic</copied_from_name>
         <description/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>441bfdf3475b41101cf79454836d4384</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>create_topic</sys_name>
         <sys_overrides/>
         <sys_package display_value="hspoke" source="x_snc_hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_441bfdf3475b41101cf79454836d4384</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:10:59</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -49,10 +49,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 09:42:07</sys_created_on>
         <sys_id>591b3137475b41101cf79454836d435c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:10:55</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDc11b3137605b4110ded639c225e65f1e":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc11b3137605b4110ded639c225e65f1e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d5c64ff2-bf09-4c3c-b087-42f6384f5d2b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc11b3137605b4110ded639c225e65f1e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-06-03 06:58:04</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDc11b3137605b4110ded639c225e65f1e":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc11b3137605b4110ded639c225e65f1e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d5c64ff2-bf09-4c3c-b087-42f6384f5d2b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc11b3137605b4110ded639c225e65f1e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">491b3137475b41101cf79454836d4320</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -174,10 +174,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 09:42:03</sys_created_on>
         <sys_id>281bfdf3475b41101cf79454836d43c7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 09:42:04</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=281bfdf3475b41101cf79454836d43c7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -188,9 +188,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 09:42:04</sys_created_on>
         <sys_id>741bfdf3475b41101cf79454836d43f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 09:42:04</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:03</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
  var cmd = './hcli topic create'
@@ -199,7 +199,11 @@ if (inputs.admin_key) { cmd = cmd +  ' --adminkey ' + inputs.admin_key }
 if (inputs.submit_key) { cmd = cmd +  ' --submitkey ' + inputs.submit_key } 
 if (inputs.memo) { cmd = cmd +  ' --memo ' + inputs.memo } 
 
-for (i=0; i &lt; inputs.sign_with.length; i++) { cmd = cmd + ' --sign ' + inputs.sign_with[i] }
+for (i=0; i &lt; inputs.sign_with.length; i++) {
+  if (inputs.sign_with[i]) {
+    cmd = cmd + ' --sign ' + inputs.sign_with[i]
+  }
+}
 
 outputs.cmd = cmd 
   
@@ -2603,17 +2607,17 @@ outputs.cmd = cmd
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="create_topic">441bfdf3475b41101cf79454836d4384</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6f568fb7475f41101cf79454836d43ff","name":"plan","plan_signature":null}}</plan>
-        <snapshot>b6564fb7475f41101cf79454836d43d7</snapshot>
+        <snapshot>a6fe116697f78110e47578971153af26</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 15:11:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f568fb7475f41101cf79454836d43ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:11:02</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2662,10 +2666,10 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 15:10:59</sys_created_on>
         <sys_id>3a564fb7475f41101cf79454836d43d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:10:59</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d5c64ff2-bf09-4c3c-b087-42f6384f5d2b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-06-03 06:58:17</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d5c64ff2-bf09-4c3c-b087-42f6384f5d2b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">a6564fb7475f41101cf79454836d43b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3555,10 +3559,10 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 15:10:57</sys_created_on>
         <sys_id>9a564fb7475f41101cf79454836d435c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="hspoke">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:10:57</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a564fb7475f41101cf79454836d435c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3569,9 +3573,9 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-13 15:10:58</sys_created_on>
         <sys_id>6a564fb7475f41101cf79454836d4384</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-13 15:10:58</sys_updated_on>
+        <sys_updated_on>2022-06-03 06:58:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
  var cmd = './hcli topic create'
@@ -3580,7 +3584,11 @@ if (inputs.admin_key) { cmd = cmd +  ' --adminkey ' + inputs.admin_key }
 if (inputs.submit_key) { cmd = cmd +  ' --submitkey ' + inputs.submit_key } 
 if (inputs.memo) { cmd = cmd +  ' --memo ' + inputs.memo } 
 
-for (i=0; i &lt; inputs.sign_with.length; i++) { cmd = cmd + ' --sign ' + inputs.sign_with[i] }
+for (i=0; i &lt; inputs.sign_with.length; i++) {
+  if (inputs.sign_with[i]) {
+    cmd = cmd + ' --sign ' + inputs.sign_with[i]
+  }
+}
 
 outputs.cmd = cmd 
   
